@@ -4,7 +4,8 @@ These are the scripts I use in BitBurner v3.0.1
 
 --------------------------------------------------------------------------------------------------------
 
-Controller-weaken.js, controller-grow.js, and controller-hack.js calculate the max threads that a server can run, and runs that many threads across all servers listed in the script.
+Controller-weaken.js, controller-grow.js, and controller-hack.js calculates and runs the max threads that a server can run. So the larger the server, the more threads it will run. Each thread is one instance of 
+one of weaken, grow, or hack. A 4tb server will run a little more than 2,000 threads.
 
    NOTE: _The server must be nuked and have backdoor for the script to work._
    
