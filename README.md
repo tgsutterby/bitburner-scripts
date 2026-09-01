@@ -1,6 +1,8 @@
 # bitburner-scripts
-A bitburner script that calculates how many weaken, grow or hack threads can be run and runs the max on all listed servers.
+These are the scripts I use in BitBurner v3.0.1
 
+
+--------------------------------------------------------------------------------------------------------
 
 Controller-weaken.js, controller-grow.js, and controller-hack.js calculate the max threads that a server can run, and runs that many threads across all servers listed in the script.
 
@@ -10,3 +12,8 @@ Controller-weaken.js, controller-grow.js, and controller-hack.js calculate the m
 Weaken.js, grow.js, and hack.js are used by the scripts above. 
 
    Note: _Do not "Run" these files. The control scripts run them automatically._
+
+
+I recommend having a total of 25 servers with five dedicated to grow(), five dedicated to hack(), and the remaining 15 dedicated to weaken(). In order for weakening to work you must be weakening each server more than you are hacking and growing the server combined.
+
+--------------------------------------------------------------------------------------------------------
