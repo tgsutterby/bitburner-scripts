@@ -18,3 +18,7 @@ Weaken.js, grow.js, and hack.js are used by the scripts above.
 I recommend having a total of 25 servers with five dedicated to grow(), five dedicated to hack(), and the remaining 15 dedicated to weaken(). In order for weakening to work you must be weakening each server more than you are hacking and growing the server combined.
 
 --------------------------------------------------------------------------------------------------------
+
+Stock-trader.js is an automatic stock trader.
+
+--------------------------------------------------------------------------------------------------------
